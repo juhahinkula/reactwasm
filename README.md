@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React & WebAssembly (using Rust)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app that calculates nth Fibonacci number. The calculation is done using the web assembly and written in Rust. The javascript binding is implemented using the wasm bingen (https://github.com/rustwasm/wasm-bindgen).
 
 ## Available Scripts
 
