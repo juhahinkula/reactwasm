@@ -14,18 +14,20 @@ npx create-react-app your_app
 cd your_app
 npm start
 ```
-- Creare Rust library
+- Create Rust library
 ```
 cargo new wasm-lib --lib
 ```
-- Now, you are ready to implement your Rust function into the lib.rs file (wasm-lib) folder. When you are done, build your library
+- Now, you are ready to implement your Rust function into the lib.rs file (wasm-lib) folder. Check the example function that 
+calculates nth fibonacci number from the lir.rs file. When you are done, build your library
 ```
 wasm-pack build --target web --out-dir pkg
 ```
-- Now, you should have package.json file in your wasm-lib folder. Next, install your wasm package into the react app
-```
+- Now, you should have package.json file in your wasm-lib folder. Next, install your wasm package into the react app. 
+````
  npm install ./wasm-lib/pkg
 ```
+- Finally, import your function to react component and you are ready to use it. Check the example from App.js file
 
 
 ## Available Scripts
