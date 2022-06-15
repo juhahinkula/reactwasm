@@ -2,6 +2,9 @@
 
 React app that calculates nth Fibonacci number. The calculation is done using the web assembly and written in Rust. The javascript binding is implemented using the wasm bingen (https://github.com/rustwasm/wasm-bindgen).
 
+## How to run this example
+- Clone the repository and run the app: `npm start`.
+
 ## How this is done?
 Required installations: Node, Rust, wasm-pack (https://github.com/rustwasm/wasm-pack)
 
@@ -24,11 +27,10 @@ calculates nth fibonacci number from the lir.rs file. When you are done, build y
 wasm-pack build --target web --out-dir pkg
 ```
 - Now, you should have package.json file in your wasm-lib folder. Next, install your wasm package into the react app. 
-````
+```
  npm install ./wasm-lib/pkg
 ```
 - Finally, import your function to react component and you are ready to use it. Check the example from App.js file
-
 
 ## Available Scripts
 
