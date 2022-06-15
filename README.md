@@ -3,7 +3,7 @@
 React app that calculates nth Fibonacci number. The calculation is done using the web assembly and written in Rust.
 
 ## How to run this example
-- Clone the repository and run the app: `npm start`.
+- Clone the repository , install dependencies `npm install` ,and run the app: `npm start`.
 
 ## How this is done?
 Required installations: Node, Rust, wasm-pack (https://github.com/rustwasm/wasm-pack)
