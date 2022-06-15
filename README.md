@@ -1,6 +1,6 @@
 # React & WebAssembly (using Rust)
 
-React app that calculates nth Fibonacci number. The calculation is done using the web assembly and written in Rust. The javascript binding is implemented using the wasm bingen (https://github.com/rustwasm/wasm-bindgen).
+React app that calculates nth Fibonacci number. The calculation is done using the web assembly and written in Rust.
 
 ## How to run this example
 - Clone the repository and run the app: `npm start`.
